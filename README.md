@@ -1,27 +1,35 @@
-# UdemyNg5Project
+# udemy-ng5-project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
+This project is my first angular5 project. This is the project for the course made by udemy:
 
-## Development server
+[Udemy Angular5 course](https://www.udemy.com/the-complete-guide-to-angular-2/learn/v4/overview)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## UP & Running instructions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1 - Install yarn package manager:
 
-## Build
+[Official instructions](https://yarnpkg.com/lang/en/docs/install/) :)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+2 - Use yarn for running the project:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ - Install all project dependencies:
 
-## Running end-to-end tests
+    ```yarn install```
+ 
+ - Start development server:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+    ```yarn start```
 
-## Further help
+ - Build production optimized build:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+    ```yarn build```
+
+ - Run unit tests:
+
+    ```yarn test```
+
+ - Run end to end tests:
+
+    ```yarn e2e```
